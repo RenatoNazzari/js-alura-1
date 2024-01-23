@@ -22,3 +22,9 @@ console.log(`Meu nome é ${nome} ${sobrenome}`);
 nome = nome + sobrenome;
 console.log(nome);
 
+/* Declarando e atribuindo valor a uma variável */
+let idadeVariavel; // declarando variável
+idadeVariavel = 26; //atribuindo valor a uma variável
+idadeVariavel = idadeVariavel + 1; //Sobrescrevendo uma variável
+
+console.log(idadeVariavel);
