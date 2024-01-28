@@ -21,3 +21,11 @@ listaDeDestinos.push(`Curitiba`);
 
 console.log("Destinos possíveis");
 console.log(listaDeDestinos);
+
+
+//Removendo itens de uma lista
+listaDeDestinos.splice(0, 1);
+console.log(listaDeDestinos);
+
+//Acessando um único elemento da lista
+console.log(listaDeDestinos[1], listaDeDestinos[0]);
